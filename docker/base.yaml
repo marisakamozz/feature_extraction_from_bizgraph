@@ -1,0 +1,29 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - dglteam
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - pyyaml
+  - scipy
+  - ipython
+  - mkl
+  - mkl-include
+  - ninja
+  - cython
+  - typing
+  - jupyter
+  - scikit-learn
+  - pandas
+  - tqdm
+  - pylint
+  - magma-cuda100
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - dgl-cuda10.0
+prefix: /opt/conda
